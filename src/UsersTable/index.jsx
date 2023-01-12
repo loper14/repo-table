@@ -203,7 +203,7 @@ const Reducer = () => {
 
   const showConfirm = (id) => {
     confirm({
-      title: <h2>Are you sure delete this user?</h2>,
+      title: <h2 className='sure' >Are you sure delete this user?</h2>,
       icon: <ExclamationCircleFilled />,
       onOk() {
         dispatch({
